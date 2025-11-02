@@ -3,7 +3,7 @@ const Home = () => (
         <h1>Tia Nicole Piol</h1>
         <p>
           <img
-            src="https://images.pexels.com/photos/34550142/pexels-photo-34550142.jpeg"
+            src="https://images.pexels.com/photos/34570761/pexels-photo-34570761.jpeg"
             alt="Tia Nicole Piol"
             className="profile-pic"
           />
