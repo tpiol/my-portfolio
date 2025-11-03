@@ -29,7 +29,7 @@ const Contact = () => {
 
         <div className="contact-links">
           <a href="https://github.com/tpiol/" target="_blank" rel="noreferrer">GitHub</a>
-          <span>|</span>
+
           <a href="https://www.linkedin.com/in/tia-nicole-piol-600534138/" target="_blank" rel="noreferrer">LinkedIn</a>
         </div>
       </main>
