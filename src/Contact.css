@@ -1,0 +1,122 @@
+/* Overall layout  */
+.contact-page {
+  max-width: 700px;
+  margin: 4rem auto;
+  padding: 2rem;
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* === Heading === */
+.main-message {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #222;
+  text-align: center;
+  margin-bottom: 2rem;
+  line-height: 1.5;
+  max-width: 600px;
+}
+
+/* Form layout */
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  width: 100%;
+}
+
+label {
+  font-weight: 500;
+  color: #333;
+  font-size: 0.95rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+/* Text Area */
+input,
+textarea {
+  width: 100%;
+  padding: 0.9rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-family: inherit;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+  background-color: #f9f9f9;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #1f6fff;
+  box-shadow: 0 0 0 3px rgba(31, 111, 255, 0.15);
+  background-color: #fff;
+  outline: none;
+}
+
+/* Button */
+button {
+  background-color: #1f6fff;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  padding: 0.9rem 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.1s ease;
+}
+
+button:hover {
+  background-color: #155ae0;
+  transform: translateY(-1px);
+}
+
+button:active {
+  transform: translateY(0);
+}
+
+/* Links */
+.contact-links {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.contact-links a {
+  color: #1f6fff;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.contact-links a:hover {
+  color: #0e44b3;
+  text-decoration: underline;
+}
+
+.contact-links span {
+  color: #888;
+}
+
+/* Phone */
+@media (max-width: 600px) {
+  .contact-page {
+    margin: 2rem 1rem;
+    padding: 1.5rem;
+  }
+
+  .main-message {
+    font-size: 1.3rem;
+  }
+}
