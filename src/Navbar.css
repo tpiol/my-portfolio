@@ -23,3 +23,33 @@
   border-bottom: 2px solid #007bff;
   padding-bottom: 2px;
 }
+
+/* Tablet */
+@media (max-width: 900px) {
+  #top-navbar {
+    gap: 2rem;
+    padding: 0.75rem 0.5rem;
+    flex-wrap: wrap;
+  }
+
+  #top-navbar a {
+    font-size: 1.05rem;
+  }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  #top-navbar {
+    gap: 1rem;
+    padding: 0.6rem 0.5rem;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    white-space: nowrap;
+  }
+
+  #top-navbar a {
+    font-size: 1rem;
+    flex: 0 0 auto;
+    padding: 0.25rem 0.1rem;
+  }
+}
