@@ -6,11 +6,7 @@ const Resume = () => {
 
             <h2>Professional Summary</h2>
             <p>
-                Cybersecurity Engineer with overall 14 years of IT experience and background in cybersecurity, risk management,
-                systems administration, telecommunications, and helpdesk. Skilled in implementing secure, compliant solutions
-                aligned with NIST and FIPS-199 standards, supporting incident response, access control, and security monitoring.
-                Experienced in enhancing system performance and ensuring data protection across enterprise environments.
-                Currently expanding technical expertise through full-stack web development training at General Assembly.
+                Cybersecurity Engineer with 14 years of IT experience across cybersecurity, risk management, systems administration, and telecommunications. I specialize in implementing secure, compliant solutions aligned with NIST and FIPS-199 standards, supporting incident response, access control, and continuous security monitoring. I’m experienced in improving system performance, strengthening security posture, and protecting sensitive data across enterprise environments. I recently completed General Assembly’s Software Engineering Bootcamp, where I refined my ability to build secure, scalable, full-stack applications — adding hands-on development expertise to my cybersecurity background.
             </p>
 
             <h2>Skills</h2>
