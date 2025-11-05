@@ -1,17 +1,22 @@
-/* Overall layout  */
 .contact-page {
+  display: block !important;
+  flex: 0 1 auto !important;
+  align-self: center !important;
+  width: min(700px, calc(100% - 2rem));
   max-width: 700px;
   margin: 4rem auto;
   padding: 2rem;
+  box-sizing: border-box;
   background-color: #ffffff;
   border-radius: 16px;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
-/* Heading */
+.contact-page * {
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
 .main-message {
   font-size: 1.6rem;
   font-weight: 600;
@@ -22,7 +27,6 @@
   max-width: 600px;
 }
 
-/* Form layout */
 form {
   display: flex;
   flex-direction: column;
@@ -39,7 +43,6 @@ label {
   gap: 0.5rem;
 }
 
-/* Text Area */
 input,
 textarea {
   width: 100%;
@@ -60,7 +63,6 @@ textarea:focus {
   outline: none;
 }
 
-/* Button */
 button {
   background-color: #1f6fff;
   color: #fff;
@@ -82,7 +84,6 @@ button:active {
   transform: translateY(0);
 }
 
-/* Links */
 .contact-links {
   margin-top: 2.5rem;
   display: flex;
@@ -92,12 +93,11 @@ button:active {
   font-family: 'Poppins', sans-serif;
 }
 
-/* GitHub & LinkedIn buttons */
 .contact-links a {
   color: #1f6fff;
   text-decoration: none;
   font-weight: 700;
-  font-size: 1.3rem; 
+  font-size: 1.3rem;
   border: 2px solid #1f6fff;
   border-radius: 10px;
   padding: 0.8rem 1.6rem;
@@ -111,12 +111,10 @@ button:active {
   box-shadow: 0 6px 14px rgba(31, 111, 255, 0.25);
 }
 
-
-
-/* Responsive */
 @media (max-width: 600px) {
   .contact-page {
-    margin: 2rem 1rem;
+    width: min(700px, calc(100% - 1.5rem));
+    margin: 2rem auto;
     padding: 1.5rem;
   }
 

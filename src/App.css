@@ -44,3 +44,23 @@ h1, h2, h3, .project-title a {
   display: flex;
   
 }
+
+@media (max-width: 600px) {
+  main {
+    margin: 1.5rem auto;
+    padding: 1rem;
+  }
+
+  h1 {
+    font-size: 1.4rem;
+  }
+
+  .profile-pic {
+    width: 160px;
+    height: 160px;
+  }
+
+  .resume {
+    flex-direction: column;
+  }
+}
