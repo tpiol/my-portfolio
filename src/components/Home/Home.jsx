@@ -14,7 +14,7 @@ const Home = () => (
             Hi, I’m Tia Piol. I'm an Army Veteran with over 14 years of experience in Information Technology, with the last five focused on cybersecurity. My background includes risk management, system administration, and compliance work supporting organizations like the Department of State and the U.S. Army. Over the years, I’ve developed a strong foundation in securing systems, improving performance, and ensuring compliance with NIST and FISMA standards.</p>
 
           <p>
-            Even with my cybersecurity background, I’ve always had a genuine interest in software engineering and coding. This year, I decided to finally go for it and enrolled in General Assembly’s Software Engineering Bootcamp. There, I learned full-stack web development including HTML, CSS, JavaScript, React.js, Node.js, and Express.js. I also worked with RESTful APIs, React Router, Express routing, and Git/GitHub version control. The program gave me the hands-on experience I wanted to build functional, secure, and user-friendly applications from the ground up.
+            With a solid foundation in cybersecurity, expanding into software engineering felt like a natural progression for me. I enrolled in General Assembly’s Software Engineering Bootcamp to sharpen my technical abilities and gained real, practical experience in full-stack development. I built applications using HTML, CSS, JavaScript, React.js, Node.js, and Express.js, integrating RESTful APIs and implementing client/server routing. This experience strengthened my ability to design and develop secure, scalable applications from the ground up.
           </p>
 
           <p>
